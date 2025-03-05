@@ -5,6 +5,9 @@ import { Todo } from "./Mycompnet/Todo";
 
 
 function App() {
+ const  onDelete=()=>{console.log("i am onDelete")
+
+  }
   let todo =[{
     No:1,
     title:"go to market",

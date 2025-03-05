@@ -13,7 +13,8 @@ export  const Todo=(props)=> {
         
       })} */}
       {props.todos.map((todo)=>{
-        return <Todoitem todo={todo}/>
+        
+        return <Todoitem key={todo.id} todo={todo} onDelete={onDelete}/>
       })}
     {/* {  props.todos} */}
     </div>
