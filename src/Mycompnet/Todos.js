@@ -1,7 +1,6 @@
 import React from 'react';
-import { TodoItem } from '../Mycompnet/TodoItem';
 // import { TodoItem } from "./TodoItem.js";
-
+import TodoItem from './TodoItem';
 export const Todos = (props) => {
     let myStyle = {
         minHeight: "70vh",
